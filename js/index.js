@@ -1,7 +1,9 @@
+// Ejercicio 6:
+function personaje() {
+
 // Ejercicio 1:
 let n = prompt("¿Quién se presenta hoy? (Mario, Luigi, Bowser, Peach, Yoshi, Toad, Toadette, Daisy)");
 console.log(`Elegiste a ${n}`);
-
 
 // Ejercicio 2:
 let spanTitle = document.querySelector('h1 > span');
@@ -37,7 +39,6 @@ switch (nLower) {
         break;
 }
 
-
 // Ejercicio 3:
 if (nLower === "mario" || "luigi" || "bowser" || "peach" || "yoshi" || "toad" || "toadette" ||  "daisy") {
     console.log(`Id a buscar: ${nLower}`);
@@ -45,13 +46,13 @@ if (nLower === "mario" || "luigi" || "bowser" || "peach" || "yoshi" || "toad" ||
     foundId.setAttribute("title", "Presentado");
 }
 
-
 // Ejercicio 4: 
 // Corregido!!
 
-
 // Ejercicio 5: 
+// Botón hecho!!
 
+}
 
 
 

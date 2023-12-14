@@ -104,3 +104,29 @@ h1 > strong {
 #daisy {
     background: url('../img/daisy.png');
 }
+
+
+.btn {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #910000;
+    color: white;  
+    border-radius: 5px;
+    border: 7px solid rgba(87, 0, 0, 0.623);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    font-size: 1.75rem;
+    margin: 2rem 0 2rem 14rem;
+}
+.btn:hover {
+    background-color: #AD0000;
+    box-shadow: rgba(255, 255, 255, 0.3) 5px 5px 4px; 
+    border: 7px solid rgba(119, 0, 0, 0.623);
+ }
+.btn:active {
+    transform: translateY(3px); 
+    border: 7px inset rgba(177, 0, 0, 0.623);
+ }
+ .btn:active {
+
+ }
