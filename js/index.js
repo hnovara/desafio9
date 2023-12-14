@@ -2,7 +2,8 @@
 function personaje() {
     
     const ocultar = document.getElementsByClassName("btn");
-    // ocultar.style.visibility = "hidden";
+    const [ btn0 ] = ocultar;
+    btn0.style.visibility = "hidden";
 
     
     // Ejercicio 1:
@@ -56,7 +57,6 @@ function personaje() {
     // Ejercicio 5: 
     // Botón hecho!!
     
-    ocultar.remove();
 }
 
 
